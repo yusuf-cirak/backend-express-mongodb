@@ -1,0 +1,35 @@
+{
+  "name": "questionanswer-rest-api",
+  "version": "1.0.0",
+  "description": "Express - Question Answer Api",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "dev": "nodemon server.js",
+    "import-dummy":"node dummy-generator --import",
+    "delete-dummy":"node dummy-generator --delete"
+
+  },
+  "keywords": [
+    "express",
+    "rest",
+    "api"
+  ],
+  "author": "Yusuf Çırak",
+  "license": "MIT",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "dotenv": "^15.0.0",
+    "express": "^4.17.2",
+    "express-async-handler": "^1.2.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.1.9",
+    "multer": "^1.4.4",
+    "nodemailer": "^6.7.2",
+    "slugify": "^1.6.5"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
