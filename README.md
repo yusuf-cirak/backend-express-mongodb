@@ -12,8 +12,3 @@ These projects built with Express.js & MongoDB
 ## ⚖️ License
 
 Distributed under the MIT License. See [MIT](https://choosealicense.com/licenses/mit/) for more information.
-
-
-## 🙏 Acknowledgements
-
- - [Mustafa Murat Coşkun](https://www.linkedin.com/in/mustafamuratcoskun/)
